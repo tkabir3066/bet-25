@@ -61,12 +61,15 @@ function App() {
           activeBtn={activeBtn}
           selectedPlayers={selectedPlayers}
         ></SwitchBtn>
-        <Players handleAddPlayers={handleAddPlayers}></Players>
-        <Splayers
-          selectedPlayers={selectedPlayers}
-          handleDelete={handleDelete}
-          handleAddMoreBTN={handleAddMoreBTN}
-        ></Splayers>
+        {activeBtn === "Available" ? (
+          <Players handleAddPlayers={handleAddPlayers}></Players>
+        ) : (
+          <Splayers
+            selectedPlayers={selectedPlayers}
+            handleDelete={handleDelete}
+            handleAddMoreBTN={handleAddMoreBTN}
+          ></Splayers>
+        )}
       </div>
     </div>
   );
