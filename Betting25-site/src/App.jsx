@@ -6,6 +6,7 @@ import Hero from "./Components/Hero/Hero";
 import SwitchBtn from "./Components/PageSwitch/SwitchBtn";
 import Players from "./Components/Players/Players";
 import Splayers from "./Components/Selected Players/Splayers";
+import Subscriber from "./Components/Subscriber/Subscriber";
 
 function App() {
   const [money, setMoney] = useState(0);
@@ -70,6 +71,7 @@ function App() {
             handleAddMoreBTN={handleAddMoreBTN}
           ></Splayers>
         )}
+        <Subscriber></Subscriber>
       </div>
     </div>
   );
