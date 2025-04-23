@@ -1,4 +1,4 @@
-# ⚽ Bet25
+# 🏏 Bet25
 
 **Bet25** is an interactive, responsive Cricket player selection web app built with React. It allows users to select players for their team, manage selections, claim free credits, and subscribe to updates — all with a polished UI and real-time feedback using React-Toastify.
 
