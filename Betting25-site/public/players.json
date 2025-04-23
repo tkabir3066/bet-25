@@ -1,0 +1,93 @@
+[
+    {
+      "id": "p1",
+      "name": "Viral Kohli",
+      "country": "India",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "price": 450000,
+      "img": "https://i.ibb.co/MHs6wzs/gettyimages-1802411253-612x612.jpg"
+    },
+    {
+      "id": "p2",
+      "name": "Rohit Sharma",
+      "country": "India",
+      "role": "Batsman",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 390000,
+      "img": "https://i.ibb.co/zTr57SBn/gettyimages-2159040973-612x612.jpg"
+    },
+    {
+      "id": "p3",
+      "name": "Steve Smudge",
+      "country": "Australia",
+      "role": "All-Rounder",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 320000,
+      "img": "https://i.ibb.co/GQkQfSXN/download-1.jpg"
+    },
+    {
+      "id": "p4",
+      "name": "Ben Strokes",
+      "country": "England",
+      "role": "All-Rounder",
+      "battingStyle": "Left-Hand-Bat",
+      "price": 480000,
+      "img": "https://i.ibb.co/ZpWFY8mk/gettyimages-1520108084-612x612.jpg"
+    },
+    {
+      "id": "p5",
+      "name": "Kane Williams",
+      "country": "New Zealand",
+      "role": "Batsman",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 270000,
+      "img": "https://i.ibb.co/tPvBDBR2/gettyimages-1400424444-612x612.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Jasprit Boomrah",
+      "country": "India",
+      "role": "Bowler",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 300000,
+      "img": "https://i.ibb.co/vrvyBFV/download.jpg"
+    },
+    {
+      "id": "p7",
+      "name": "David Warner",
+      "country": "Australia",
+      "role": "Batsman",
+      "battingStyle": "Left-Hand-Bat",
+      "price": 420000,
+      "img": "https://i.ibb.co/yFKBGKKW/gettyimages-1849024760-612x612.jpg"
+    },
+    {
+      "id": "p8",
+      "name": "Shaheen Afridi",
+      "country": "Pakistan",
+      "role": "Bowler",
+      "battingStyle": "Left-Hand-Bat",
+      "price": 350000,
+      "img": "https://i.ibb.co/TDyPHR6Z/gettyimages-1766575033-612x612.jpg"
+    },
+    {
+      "id": "p9",
+      "name": "Hardik Panyda",
+      "country": "India",
+      "role": "All-Rounder",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 495000,
+      "img": "https://i.ibb.co/ccJpmqC5/gettyimages-1229818382-612x612.jpg"
+    },
+    {
+      "id": "p10",
+      "name": "Faf Du Plesis",
+      "country": "South Africa",
+      "role": "Batsman",
+      "battingStyle": "Right-Hand-Bat",
+      "price": 280000,
+      "img": "https://i.ibb.co/Z6LdvS4Q/gettyimages-1151050046-612x612.jpg"
+    }
+  ]
+  

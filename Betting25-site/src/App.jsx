@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./Components/Header/Navbar";
 import Hero from "./Components/Hero/Hero";
 import SwitchBtn from "./Components/PageSwitch/SwitchBtn";
+import Players from "./Components/Players/Players";
 
 function App() {
   const [money, setMoney] = useState(0);
@@ -18,6 +19,26 @@ function App() {
   const handleBtnSwitch = (tab) => {
     setActiveBtn(tab);
   };
+  const handleAddPlayers = (player, price, id) => {
+    if (selectedPlayers.length >= 6) {
+      toast.warning("Player limit exceed");
+      return;
+    }
+    const isAlreadySelected = selectedPlayers.some((p) => p.id === id);
+    if (isAlreadySelected) {
+      toast.warning("Player already selected .");
+      return;
+    }
+    if (money < price) {
+      toast.warning("Not Enough money !");
+      return;
+    }
+    const balance = money - price;
+    setMoney(balance);
+    const newPlayer = [...selectedPlayers, player];
+    setSelectedPlayers(newPlayer);
+    toast.success(`${player.name} is now in your squad`);
+  };
 
   return (
     <div className="sora-font">
@@ -29,6 +50,7 @@ function App() {
         activeBtn={activeBtn}
         selectedPlayers={selectedPlayers}
       ></SwitchBtn>
+      <Players handleAddPlayers={handleAddPlayers}></Players>
       </div>
     </div>
   );
