@@ -7,6 +7,7 @@ import SwitchBtn from "./Components/PageSwitch/SwitchBtn";
 import Players from "./Components/Players/Players";
 import Splayers from "./Components/Selected Players/Splayers";
 import Subscriber from "./Components/Subscriber/Subscriber";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [money, setMoney] = useState(0);
@@ -73,6 +74,7 @@ function App() {
         )}
         <Subscriber></Subscriber>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
